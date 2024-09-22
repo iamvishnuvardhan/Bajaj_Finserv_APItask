@@ -1,0 +1,24 @@
+{
+  "name": "bfhl",
+  "version": "1.0.0",
+  "description": "Backend API for Bajaj Finserv Health Dev Challenge",
+  "main": "app.js",  // assuming the main file is app.js (you can change it if necessary)
+  "scripts": {
+    "start": "node app.js",   // Make sure the main file is `app.js`
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "express",
+    "api",
+    "rest",
+    "bajaj-finserv"
+  ],
+  "author": "Your Name",  // Add your name here
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "engines": {
+    "node": ">=14.0.0"  // Specify the minimum Node version to be compatible with most modern features
+  }
+}
